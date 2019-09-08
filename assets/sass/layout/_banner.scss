@@ -7,7 +7,8 @@
 /* Banner */
 
 	#banner {
-		@include padding(10em, 0, (0, 0, _size(wrapper-edges, large) * -0.5, 0));
+		@include padding(13em, 0, (0, 0, _size(wrapper-edges, large) * -0.5, 0));
+		min-height: 55vh;
 		.inner {
 			margin: 0 auto;
 			width: _size(inner);
@@ -47,7 +48,8 @@
 			@include vendor('filter', 'blur(0)');
 			opacity: 1;
 			border-bottom: solid 2px _palette(border);
-			font-size: 5.25em !important;
+			font-size: 3.75em !important;
+			line-height: 1.3;
 			text-transform: uppercase;
 			margin: 0;
 			padding: 0;
@@ -66,7 +68,7 @@
 			text-transform: none;
 			opacity: 1;
 			font-family: _font(family-heading);
-			font-size: 1em;
+			font-size: 1.3em;
 			font-weight: _font(weight);
 			letter-spacing: _font(kern-heading);
 			line-height: 2;
