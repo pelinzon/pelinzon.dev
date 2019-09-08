@@ -1,0 +1,22 @@
+span.medium {
+    font-weight: 600;
+}
+
+span.bold {
+    font-weight: 800;
+}
+
+span.bolder {
+    font-weight: 900;
+}
+
+span.accent {
+    color: _palette(accent);
+}
+
+article {
+    h3 {
+        font-weight: 800;
+        font-size: 1.3em;
+    }
+}
