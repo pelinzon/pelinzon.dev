@@ -28,7 +28,6 @@
         "../sass/components/_button.scss",
         "../sass/components/_features.scss",
         "../sass/layout/_header.scss",
-        "../sass/layout/_menu.scss",
         "../sass/layout/_banner.scss",
         "../sass/layout/_wrapper.scss",
         "../sass/layout/_footer.scss"

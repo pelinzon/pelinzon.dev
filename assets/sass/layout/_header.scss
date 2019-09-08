@@ -8,7 +8,7 @@
 
 	#header {
 		@include vendor('transition', 'background-color #{_duration(transition)} ease-in-out');
-		background-color: transparentize(desaturate(lighten(_palette(white), 3), 1.5), 0.05);
+		background-color: _palette(white);
 		height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
@@ -56,32 +56,11 @@
 					float: right;
 					margin-left: 0.75em;
 				}
-
-				&[href="#menu"] {
-					@include icon(false, solid);
-					@include vendor('transition', 'background-color #{_duration(transition)} ease-in-out');
-					border-radius: _size(border-radius);
-					box-shadow: inset 0 0 0 2px _palette(border);
-					padding: 0 1.35em;
-
-					&:before {
-						content: '\f0c9';
-						line-height: inherit;
-					}
-
-					&:hover {
-						background-color: _palette(border-white);
-					}
-
-					&:active {
-						background-color: _palette(border2-white);
-					}
-				}
 			}
 		}
 
 		&.alt {
-			background-color: transparent;
+			background-color: white;
 
 			h1 {
 				opacity: 0;
