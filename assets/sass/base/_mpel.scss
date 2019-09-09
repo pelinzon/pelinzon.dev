@@ -49,16 +49,42 @@ section.features {
   }
 }
 section .spotlight {
-    a.button{
-        border: 2px solid white;
-        box-shadow: none !important;
-        &:hover {
-            background-color: white !important;
-            color: _palette(accent) !important;
-        }
+  a.button {
+    border: 2px solid white;
+    box-shadow: none !important;
+    &:hover {
+      background-color: white !important;
+      color: _palette(accent) !important;
     }
+  }
 }
 /*utilites*/
 .mr-25 {
-    margin-right: 25px;
+  margin-right: 25px;
+}
+
+/*mobile layout fixes*/
+@media (max-width: 768px) {
+  section article {
+    padding: 15px 24px !important;
+  }
+  ul.contact li {
+    margin: 0 !important;
+  }
+  h2 {
+    font-size: 1.6em !important;
+  }
+  #banner {
+    h2 {
+      font-size: 2.75em !important;
+    }
+    p {
+      font-size: 1.1em !important;
+    }
+  }
+  .button {
+    padding: 13px 15px !important;
+    line-height: unset !important;
+    margin: 10px;
+  }
 }
