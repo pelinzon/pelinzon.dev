@@ -24,7 +24,7 @@ article {
 section.features {
   article {
     background-color: #fff;
-    border: 1px solid _palette(light-gray);
+    border: 1px solid #e8e7e7;
     transition: box-shadow 300ms cubic-bezier(0.23, 1, 0.32, 1);
     &:hover {
       box-shadow: 0 5px 10px _palette(light-gray);
