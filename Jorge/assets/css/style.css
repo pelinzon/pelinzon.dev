@@ -287,7 +287,9 @@ END Header Area
     max-height: 100%;
 }
 
-.slider-inner {}
+.slider-inner {
+    margin-top: 25%;
+}
 
 .slider-inner h2 {
     font-size: 48px;
@@ -303,26 +305,11 @@ END Header Area
     color: #fff;
     letter-spacing: 0;
     line-height: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     margin-top: 20px;
 }
 
-.slider-inner a {
-    display: inline-block;
-    position: relative;
-    height: 60px;
-    width: 270px;
-    background: transparent;
-    border: 2px solid #fff;
-    border-radius: 30px;
-    text-align: center;
-    line-height: 56px;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 400;
-    letter-spacing: 0;
-    padding-left: 44px;
-}
+
 
 .slider-inner a i {
     position: absolute;
@@ -426,7 +413,7 @@ END Service Area
 .section-title h2 {
     font-size: 30px;
     font-weight: 700;
-    color: #5b1ffa;
+    color: #435ee9;
     letter-spacing: 0;
     line-height: 37px;
     position: relative;
@@ -465,6 +452,20 @@ END Service Area
 }
 
 .about-content {}
+
+.about-content h2 {
+font-size: 30px;
+font-weight: 700;
+color: #435ee9;
+letter-spacing: 0;
+line-height: 37px;
+padding-bottom: 10px;
+}
+
+.about-content h4 {
+margin-bottom: 20px;
+letter-spacing: 0;
+}
 
 .about-content p {
     color: #666666;
@@ -510,7 +511,7 @@ END About Area
 
 .ft-single h2 {
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 700;
     color: #232323;
     letter-spacing: 0;
     line-height: 31px;
@@ -874,8 +875,8 @@ END Video Area
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 0;
-    color: #333;
-    border: 1px solid #591efb;
+    color: #fff;
+    background-color: #435EE9;
     padding: 5px 21px;
     border-radius: 3px;
     display: inline-block;
@@ -889,6 +890,8 @@ END Video Area
 /*===========================
 END Pricing Area
 ===========================*/
+
+
 
 /*===========================
 2.11 Team Area
@@ -958,7 +961,8 @@ END Pricing Area
 }
 .download-btns a {
     height: 50px;
-    width: 195px;
+    width: 260px;
+    margin-left: 20px;
     border: 2px solid #fff;
     display: inline-block;
     text-align: center;
