@@ -31,5 +31,8 @@
 	.footer-content h2 {
 	    font-size: 18px;
 	}
-    
+    .single-price{
+		!margin-left: -30%;
+		!margin-right: -42%;
+	}
 }
