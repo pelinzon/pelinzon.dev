@@ -1,0 +1,3 @@
+user-agent: *
+Disallow:
+Sitemap: https://pelinzon.dev/sitemap.xml
