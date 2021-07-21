@@ -107,7 +107,7 @@
 
 	.wrapper {
 		background-color: _palette(white);
-		margin: _size(wrapper-edges, large) 0;
+		margin: 5.5em 0;
 		position: relative;
 		@include wrapper-edges-color(_palette(white));
 
