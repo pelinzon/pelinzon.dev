@@ -150,7 +150,7 @@
 
 		@for $i from 2 through _misc(max-wrapper-styles) {
 			$j: 3 * ($i - 1);
-			$color: desaturate(lighten(_palette(white), $j), $j * 0.5);
+			$color: desaturate(lighten(_palette(white), $j), $j * 0.3);
 
 			&.style#{$i} {
 				background-color: $color;

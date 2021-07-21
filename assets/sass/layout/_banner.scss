@@ -8,7 +8,7 @@
 
 	#banner {
 		@include padding(13em, 0, (0, 0, _size(wrapper-edges, large) * -0.5, 0));
-		min-height: 55vh;
+		min-height: 75vh;
 		.inner {
 			margin: 0 auto;
 			width: _size(inner);
@@ -42,15 +42,15 @@
 			// 	'transform 0.5s ease',
 			// 	'filter 0.25s ease',
 			// ));
-			color: _palette(dark-gray);
+			color: _palette(white);
 			// @include vendor('transform', 'translateX(0)');
 			// @include vendor('transition-delay', '0.65s');
 			// @include vendor('filter', 'blur(0)');
 			opacity: 1;
 			border-bottom: solid 2px _palette(border);
-			font-size: 3.75em;
+			font-size: 3.5em;
+
 			line-height: 1.2;
-			text-transform: uppercase;
 			margin: 0 0 0 -5px;
 			padding: 0;
 			border-bottom: none !important;
@@ -65,27 +65,24 @@
 			// @include vendor('transform', 'translateX(0)');
 			// @include vendor('transition-delay', '0.8s');
 			// @include vendor('filter', 'blur(0)');
-			color: _palette(medium-gray);
+			color: _palette(white);
 			text-transform: none;
 			opacity: 1;
 			font-family: _font(family-heading);
-			font-size: 1.3em;
+			font-size: 1.2em;
 			font-weight: _font(weight);
 			letter-spacing: _font(kern-heading);
 			line-height: 2;
 			margin: 0;
 		}
 
+		margin-bottom: (_size(wrapper-edges, large) * -1);
+
 		@include breakpoint('<=large') {
 			@include padding(7em, 0, (0, 0, _size(wrapper-edges, large) * 0.5, 0));
 
 			background-color:		_palette(white);
 
-			background-size:		auto,
-									cover;
-
-			background-position:	center,
-									center;
 
 		 	margin-bottom: (_size(wrapper-edges, large) * -1);
 		}

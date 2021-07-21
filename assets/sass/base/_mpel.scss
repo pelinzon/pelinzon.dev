@@ -58,9 +58,21 @@ section .spotlight {
     }
   }
 }
+
 /*utilites*/
 .mr-25 {
   margin-right: 25px;
+}
+
+#banner {
+  background-color: black;
+  background-image: linear-gradient(rgba(0, 0, 0.1, 0.85),rgba(0, 0, 0.1, 0.85)) , url("../../../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  display: flex;
+  align-items: center;
 }
 
 /*mobile layout fixes*/
@@ -76,7 +88,7 @@ section .spotlight {
   }
   #banner {
     h2 {
-      font-size: 2.75em !important;
+      font-size: 2.5em !important;
     }
     p {
       font-size: 1.1em !important;

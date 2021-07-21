@@ -17,7 +17,7 @@
 		top: 0;
 		width: 100%;
 		z-index: _misc(z-index-base);
-		box-shadow: 0 5px 8px rgba(200, 200, 200, .2);
+		box-shadow: 0 5px 8px rgba(200, 200, 200, 0.4);
 		h1 {
 			@include vendor('transition', (
 				'opacity #{_duration(transition)} ease-in-out',

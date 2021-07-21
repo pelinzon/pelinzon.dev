@@ -4,15 +4,21 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 /* Banner */
+/* line 18, ../../Desktop/pelinzon.dev/assets/sass/noscript.scss */
 body.is-preload #banner .logo {
+  -moz-transform: none;
   -webkit-transform: none;
+  -ms-transform: none;
   transform: none;
   opacity: 1;
 }
 
+/* line 23, ../../Desktop/pelinzon.dev/assets/sass/noscript.scss */
 body.is-preload #banner h2 {
   opacity: 1;
+  -moz-transform: none;
   -webkit-transform: none;
+  -ms-transform: none;
   transform: none;
   -moz-filter: none;
   -webkit-filter: none;
@@ -20,13 +26,17 @@ body.is-preload #banner h2 {
   filter: none;
 }
 
+/* line 29, ../../Desktop/pelinzon.dev/assets/sass/noscript.scss */
 body.is-preload #banner p {
   opacity: 01;
+  -moz-transform: none;
   -webkit-transform: none;
+  -ms-transform: none;
   transform: none;
   -moz-filter: none;
   -webkit-filter: none;
   -ms-filter: none;
   filter: none;
 }
+
 /*# sourceMappingURL=noscript.css.map */
