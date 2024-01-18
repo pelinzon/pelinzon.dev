@@ -1,56 +1,37 @@
 // Misc.
 	$misc: (
-		z-index-base:			10000,
-		max-wrapper-styles:		6
+		bg:					#348cb2 url("images/bg.jpg") bottom left,
+		bg-width:			1500px
 	);
 
 // Duration.
 	$duration: (
-		menu:					0.35s,
-		transition:				0.2s
+		bg:					60s,
+		wrapper:			3s,
+		overlay:			1.5s,
+		header:				1s,
+		nav-icons:			0.5s
 	);
 
 // Size.
 	$size: (
-		border-radius:			5px,
-		element-height:			2.75em,
-		element-margin:			2em,
-		inner:					55em,
-		section-spacing:		(
-			large:				3em,
-			medium:				2em,
-			small:				1.75em
-		),
-		wrapper-edges:			(
-			large:				5.5em,
-			medium:				4.4em,
-			small:				2.4em
-		)
+		nav-icon-wrapper:	5.35em,
+		nav-icon:			1.75em
 	);
 
 // Font.
 	$font: (
-		family:					('Circular', Helvetica, sans-serif),
-		family-fixed:			('Courier New', monospace),
-		family-heading:			('Circular', Helvetica, sans-serif),
-		weight:					500,
-		weight-medium:			600,
-		weight-bold:			800,
-		weight-black:			900,
-		kern-heading:			0.1em
 	);
 
 // Palette.
 	$palette: (
-		white:					#ffffff,
-		accent:					#0085E6,
-		dark-gray:				#464646,
-		medium-gray:			#707070,
-		light-gray:				#F0F0F0,
+		bg:					#fff,
+		fg:					#fff,
 
-		white-translucent:		rgba(255,255,255,0.35),
-		border:					rgba(255,255,255,0.125),
-		border-white:			rgba(248, 156, 156, 0.025),
-		border2:				rgba(104, 97, 97, 0.25),
-		border2-white:			rgba(255,255,255,0.075)
+		nav-icon: (
+			hover-bg:		rgba(255,255,255,0.175),
+			hover-fg:		#fff,
+			active-bg:		rgba(255,255,255,0.35),
+			active-fg:		#fff
+		)
 	);
