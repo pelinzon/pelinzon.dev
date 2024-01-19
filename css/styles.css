@@ -1,0 +1,116 @@
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url('/images/bg.jpg'), linear-gradient(rgba(0,0,0,0.66),rgba(0,0,0,0.66));
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.content-wrapper {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  flex: 1;
+  padding: 20px;
+}
+  
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 24px;
+}
+
+.circle-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.5em;
+  height: 3.5em;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(255,255,255,0.15);
+  margin: 0.5em;
+  text-decoration: none; /* Remove underline from links */
+  background-color: rgba(255,255,255,0.1);
+  cursor: pointer;
+  font-family: 'Circular-Regular';
+}
+
+.small-icon {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.circle-button:hover {
+  background-color: rgba(255,255,255,0.3);
+}
+
+.vertical-list {
+  list-style-type: none; /* Remove default list styles (bullet points) */
+  padding: 0; /* Remove default padding */
+}
+
+.custom-footer {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 2.5em;
+  font-family: 'Circular-Black';
+  text-align: center;
+  margin: 8px;
+}
+
+.description {
+  font-family: 'Circular-Regular';
+  text-align: center;
+  margin: 8px;
+  font-size: 16px;
+  color: rgba(255,255,255,0.75)
+}
+
+.footer-text {
+  font-family: 'Circular-Regular';
+  font-size: 14px;
+  color: rgba(255,255,255,0.33)
+}
+
+@font-face {
+  font-family: 'Circular-Regular';
+  src: url('/fonts/circular-book.otf');
+}
+
+@font-face {
+  font-family: 'Circular-Medium';
+  src: url('/fonts/circular-medium.otf');
+}
+
+@font-face {
+  font-family: 'Circular-Bold';
+  src: url('/fonts/circular-bold.otf');
+}
+
+@font-face {
+  font-family: 'Circular-Black';
+  src: url('/fonts/circular-black.otf');
+}
