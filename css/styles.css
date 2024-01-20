@@ -39,12 +39,12 @@ body {
   margin: 16px;
   opacity: 0;
 
-  -webkit-animation: fadein 1s 0s;
+  -webkit-animation: fadein 1s 0.25s;
   -webkit-animation-fill-mode: forwards;
-  -moz-animation: fadein 1s 0s;
-   -ms-animation: fadein 1s 0s;
-    -o-animation: fadein 1s 0s;
-       animation: fadein 1s 0s;
+  -moz-animation: fadein 1s 0.25s;
+   -ms-animation: fadein 1s 0.25s;
+    -o-animation: fadein 1s 0.25s;
+       animation: fadein 1s 0.25s;
        animation-fill-mode: forwards;
 }
 
@@ -73,12 +73,12 @@ body {
   margin: 16px;
   opacity: 0;
 
-  -webkit-animation: fadein 1s 2s;
+  -webkit-animation: fadein 1s 1.75s;
   -webkit-animation-fill-mode: forwards;
-  -moz-animation: fadein 1s 2s;
-   -ms-animation: fadein 1s 2s;
-    -o-animation: fadein 1s 2s;
-       animation: fadein 1s 2s;
+  -moz-animation: fadein 1s 1.75s;
+   -ms-animation: fadein 1s 1.75s;
+    -o-animation: fadein 1s 1.75s;
+       animation: fadein 1s 1.75s;
        animation-fill-mode: forwards;
 }
 
@@ -120,12 +120,12 @@ body {
   padding: 20px;
   opacity: 0;
 
-  -webkit-animation: fadein 1s 3s;
+  -webkit-animation: fadein 1s 2.5s;
   -webkit-animation-fill-mode: forwards;
-  -moz-animation: fadein 1s 3s;
-   -ms-animation: fadein 1s 3s;
-    -o-animation: fadein 1s 3s;
-       animation: fadein 1s 3s;
+  -moz-animation: fadein 1s 2.5s;
+   -ms-animation: fadein 1s 2.5s;
+    -o-animation: fadein 1s 2.5s;
+       animation: fadein 1s 2.5s;
        animation-fill-mode: forwards;
 }
 
