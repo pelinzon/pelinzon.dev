@@ -34,7 +34,7 @@ body {
 
 .title {
   font-size: 2.5em;
-  font-family: 'Circular-Bold';
+  font-family: 'Circular-Bold', sans-serif;
   text-align: center;
   margin: 16px;
   opacity: 0;
@@ -49,7 +49,7 @@ body {
 }
 
 .description {
-  font-family: 'Circular-Regular';
+  font-family: 'Circular-Regular', sans-serif;
   text-align: center;
   margin: 8px;
   font-size: 16px;
@@ -96,7 +96,7 @@ body {
   text-decoration: none; /* Remove underline from links */
   background-color: rgba(255,255,255,0.1);
   cursor: pointer;
-  font-family: 'Circular-Regular';
+  font-family: 'Circular-Regular', sans-serif;
 }
 
 .small-icon {
@@ -130,7 +130,7 @@ body {
 }
 
 .footer-text {
-  font-family: 'Circular-Regular';
+  font-family: 'Circular-Regular', sans-serif;
   font-size: 14px;
   color: rgba(255,255,255,0.2)
 }
