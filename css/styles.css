@@ -11,12 +11,13 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
-  background-image: url('/images/bg.jpg'), linear-gradient(rgba(0,0,0,0.66),rgba(0,0,0,0.66));
+  background-image: url('/images/bg.webp'), linear-gradient(rgba(0,0,0,0.66),rgba(0,0,0,0.66));
   background-blend-mode: overlay;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: #fff;
+  backdrop-filter: blur(4px);
 }
 
 .content-wrapper {
