@@ -1,0 +1,9 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "br.com.carrefour",
+      "sha256_cert_fingerprints":
+      ["B1:8E:B7:EF:9F:30:A3:2A:7F:61:93:F8:50:E6:0D:25:1F:C8:78:C8:B3:7D:EA:C0:07:88:F4:E6:24:22:8B:04"]
+    }
+  }]
