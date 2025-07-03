@@ -1,0 +1,16 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["6F5259K89D.br.com.carrefourbrasil"],
+        "components": [
+          {
+            "/": "/jorge",
+            "comment": "Testing"
+          }
+        ]
+      }
+    ]
+  }
+}
